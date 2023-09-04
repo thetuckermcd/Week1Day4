@@ -1,0 +1,87 @@
+{
+link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"
+.nav {
+    left: 20px
+}
+.navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: left;
+}
+.nav-item {
+    display:flex;
+    justify-content: space-between;
+
+}
+}
+body { 
+    padding: 0;
+    margin: 0;
+}
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Left Right";
+  }
+  h1 {
+    font-size: 83px ;
+
+  }
+  h6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: gray;
+  }
+  
+  .Right { grid-area: Right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    object-fit: cover;
+    padding-left: 10px;
+ }
+  
+  .Left { grid-area: Left;
+object-fit: cover;
+}
+  
+  
+.line-break  {
+height: 1px;
+width: 850px
+
+}
+.mid-title {
+    text-align: center;
+    display: center;
+}
+h3 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content-slide {
+    padding-top: 60px;
+    margin-top: 40px;
+}
+.second-blurb {
+    padding: top 20px;
+    margin-top: 40px;
+}
+.content-slide1 {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.page-footer {
+    display: block;
+    width: 100%;
+    background-color: #0d63fd;
+    color: white;
+    text-align: center;
+    
+}
+
