@@ -1,0 +1,159 @@
+body {
+    margin-top: 33px;
+  }
+
+p {
+    font-size: smaller;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: larger;
+    font-weight: 700;
+}
+h3 {
+    font-size: medium;
+    font-weight: 300;
+}
+h5 {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.row{
+    background-color: transparent;
+}
+
+
+.col-6 {
+    display: flex;
+    object-fit: fill;
+}
+
+
+/* NAVIGATION BAR */
+.nav-link {
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: medium;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+    font-weight: 600;
+}
+
+  .box {
+    background-color: transparent;
+    text-align: left;
+    min-height: 576px;
+    font-size: 1rem;
+    padding: 30px;
+  }
+
+  .landing-feat-left ul {
+    display: inline-flex;
+    width: max-content;
+    flex-wrap: nowrap;
+    direction:ltr;
+    }
+
+    .row {
+        border:none
+    }
+
+
+/* EXPLORE DOUBLE TAP SECTION */
+    .dtgraphic-leftbox {
+    display: flex;
+    object-position: left;
+    }
+    
+    .payments-desc   {
+    display: inline-block;
+    background-color:blue;
+    color: azure;
+    flex-direction:row;
+    border-radius: 0 40px 40px 0;
+    padding: 5%;
+    }
+
+    
+
+/* SOLUTIONS SECTION */
+
+
+      
+  @media (min-width: 576px) {
+    body::before {
+      content: "";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: "";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "";
+    }
+  }
+
+  .wrapper
+  {
+      padding-bottom: 90px;
+  }
+  
+  .divider  {
+      position: relative;
+      margin-top: 90px;
+      height: 1px;
+  }
+
+  .div-transparent:before   {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+  }
+
+    .div-arrow-down:after  {
+        content: "";
+        position: absolute;
+        z-index: 1;
+          top: -7px;
+          left: calc(50% - 7px);
+          width: 14px;
+          height: 14px;
+          transform: rotate(45deg);
+          background-color: white;
+          border-bottom: 1px solid rgb(48,49,51);
+          border-right: 1px solid rgb(48,49,51);   
+      }
+
+
+    
+
+      
+
+   
